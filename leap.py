@@ -1,12 +1,20 @@
 def is_leap_year(year):
-    if year % 100 == 0 and year % 400 == 0:
+    if year_divisible_by_four(year)
+    # if year % 100 == 0 and year % 400 == 0:
+    #     return True
+    # if year % 4 == 0 and year % 400 == 0:
+    #     return True
+    # elif year % 100 == 0 and year % 4 == 0:
+    #     return False
+    # else:
+    #     return False
+
+def year_divisible_by_four(year):
+    if year % 4 == 0:
         return True
-    if year % 4 == 0 and year % 400 == 0:
-        return True
-    elif year % 100 == 0 and year % 4 == 0:
-        return False
-    else:
-        return False
+
+def year_divisible_by_100(year):
+    
 
 # on every year that is evenly divisible by 4
 #   except every year that is evenly divisible by 100
