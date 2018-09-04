@@ -1,4 +1,1 @@
-{
-  "leap_test.py": true,
-  "leap_test.py::LeapTest::test_year_not_divisible_by_4": true
-}
+{}
