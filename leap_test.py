@@ -18,6 +18,12 @@ class LeapTest(unittest.TestCase):
     def test_year_divisible_by_400(self):
         self.assertIs(is_leap_year(2000), True)
 
+    def test_year_2016(self):
+        self.assertIs(is_leap_year(2016), True)
+
+    def test_year_1900(self):
+        self.assertIs(is_leap_year(1900), False)
+
 
 if __name__ == '__main__':
     unittest.main()
